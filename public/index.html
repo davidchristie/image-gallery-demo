@@ -20,6 +20,19 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Image Gallery Demo</title>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyBNbNAaSZss4h3pcDa0lO5umhSx93yeSGs",
+        authDomain: "image-gallery-demo-ef491.firebaseapp.com",
+        databaseURL: "https://image-gallery-demo-ef491.firebaseio.com",
+        messagingSenderId: "177449094924",
+        projectId: "image-gallery-demo-ef491",
+        storageBucket: "image-gallery-demo-ef491.appspot.com"
+      }
+      firebase.initializeApp(config)
+    </script>
   </head>
   <body>
     <noscript>
